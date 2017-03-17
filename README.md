@@ -4,15 +4,16 @@ file
 
 ## What is this?
 
-github2orgmode downloads a project's entire list of issues, and writes them to
-a single plain-text file in [Org mode](http://orgmode.org) format.
+github2orgmode downloads a project's entire list of issues from github, and
+writes them to a single plain-text file in [Org mode](http://orgmode.org)
+format.
 
 The result, in a [suitable viewer](http://www.orgzly.com), might look something
 like this:
 
 ![Orgzly Screenshot 1](https://github.com/Matrixcoffee/github2orgmode/raw/master/OrgzlyScreen1.jpeg)
 
-## Why would one want this?
+## Why would I want this?
 
 The goal is to keep a local copy of all issues on my phone, for quick and
 efficient search and review. This program's output can be used with the
@@ -25,8 +26,8 @@ This software is pre-alpha, and not useful yet, not even to the author (me).
 
 ## How do I use this?
 
-Please see **Status**. This software is not ready for use. That said, for the
-stubborn:
+Please see [Status](#Status). This software is not ready for use. That said,
+for the stubborn:
 
 1. Download or check it out anywhere.
 2. Run it:
@@ -37,8 +38,8 @@ python3 github2orgmode.py owner/repo > output.org
 
 ## Compatibility
 
-This software should run on any stable python 3 interpreter, in a unixy
-environment. If not, please file an
+This software should run on any stable release of the python 3 interpreter, in
+a unixy environment. If not, please file an
 [issue](https://github.com/Matrixcoffee/github2orgmode/issues/new). Running in
 a non-unixy environment might be considered if the needed adjustments are
 minor, in the author's opinion.
@@ -50,7 +51,7 @@ This software is written to be compatible with
 
 There will soon be a
 [CONTRIBUTING.md](https://github.com/Matrixcoffee/github2orgmode/blob/master/CONTRIBUTING.md)
-(#2)
+([#2](https://github.com/Matrixcoffee/github2orgmode/issues/2))
 
 Please note that the latest code lives on the `develop` branch. Stable releases
 will appear on `master`.
@@ -60,7 +61,8 @@ will appear on `master`.
 This repository contains an embedded copy of
 [PySocks](https://github.com/Anorov/PySocks) (formerly SocksiPy), taken from
 https://raw.githubusercontent.com/Anorov/PySocks/d0eb45b80145bec982bfb551910312b886967be3/socks.py.
-See [socks.py](https://github.com/Matrixcoffee/github2orgmode/blob/master/socks.py) for details.
+See [socks.py](https://github.com/Matrixcoffee/github2orgmode/blob/master/socks.py)
+for details.
 
 ## Author
 
@@ -72,8 +74,8 @@ This project has a dedicated matrix room at
 [#github2orgmode:matrix.org](https://matrix.to/#/#github2orgmode:matrix.org)
 where you can discuss the project and ask questions.
 
-The author can be privately contacted via matrix:
-[@Coffee:matrix.org](https://matrix.to/#/@coffee:matrix.org).
+The author can be contacted privately via matrix:
+[@Coffee:matrix.org](https://matrix.to/#/@Coffee:matrix.org).
 
 ## License
 
@@ -87,4 +89,4 @@ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 The full text of this license can be found in the file called
-[LICENSE](https://github.com/Matrixcoffee/github2orgmode/raw/master/LICENSE).
+[LICENSE](https://github.com/Matrixcoffee/github2orgmode/blob/master/LICENSE).
