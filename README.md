@@ -4,7 +4,7 @@ file
 
 ## What is this?
 
-github2orgmode downloads a project's entire list of issues from github, and
+github2orgmode downloads a project's entire list of issues from Github, and
 writes them to a single plain-text file in [Org mode](http://orgmode.org)
 format.
 
@@ -26,7 +26,7 @@ This software is pre-alpha, and not useful yet, not even to the author (me).
 
 ## How do I use this?
 
-Please see [Status](#Status). This software is not ready for use. That said,
+Please see [Status](#status). This software is not ready for use. That said,
 for the stubborn:
 
 1. Download or check it out anywhere.
